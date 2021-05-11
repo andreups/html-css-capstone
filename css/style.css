@@ -16,9 +16,12 @@ form {
 .card {
     box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
     border-radius: 10px;
-    padding-bottom: 10px
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
-.btn {
+
+.btn.sale {
     border-radius: 2;
     width: fit-content;
     background-color: #56a70a;
@@ -45,5 +48,6 @@ form {
 }
 .row {
     display: flex;
-    flex-flow: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
