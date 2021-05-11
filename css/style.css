@@ -1,7 +1,18 @@
 body {
-    margin: 0;
-    padding 0;
+
     background-image: url('/images/boiling.jpg');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(169, 202, 169)
 }
+form {
+    display: flex;
+    
+    flex-direction: column; 
+    
+    width: 100%;
+    min-height: 100%;
+
+  }
