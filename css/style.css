@@ -28,14 +28,14 @@ form {
     box-shadow: 0px 10px 10px #E0E0E0;
     z-index: 1;
     color: white;
-    width: 100px;
+    width: 110px;
     font-size: 14px;
     font-weight: 800;
     text-align: center;
     white-space: nowrap;
 }
 .img-thumbnail {
-    border: none
+    border: none;
 }
 .card-title {
     font-size: 14px;
@@ -48,6 +48,4 @@ form {
 }
 .row {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
