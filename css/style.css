@@ -14,7 +14,7 @@ form {
     min-height: 100%;
 }
 .card {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    box-shadow: 0 20px 40px rgba(41, 30, 58, 0.6);
     border-radius: 10px;
     position: relative;
     display: flex;
@@ -63,4 +63,13 @@ input[type=text]:focus, input[type=password]:focus {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+}
+.input-block-level {
+    width: 100%;
+}
+.navbar {
+    background-color: rgb(100, 77, 141, 0.6);
+}
+.navbottom {
+    background-color: rgba(41, 30, 58, 0.9);
 }
