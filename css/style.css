@@ -6,7 +6,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgb(169, 202, 169)
-}.jumbotron {
+}
+.jumbotron {
     color: rgb(219, 208, 233);
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
@@ -97,10 +98,12 @@ form {
 .btn-register {
   background-color: #ADBB3C;
 }
-@media screen and (max-width: 600px) {
-    .navbottom a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
+.navbar img {
+    height: 30px;
+}
+.navbottom img {
+    height: 20px;
+    padding: 0 5px;
+
+}
  
