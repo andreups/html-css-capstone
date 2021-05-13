@@ -88,9 +88,8 @@ form {
     width: 100%;
     bottom: 0px; 
     background-color: rgba(41, 30, 58, 0.9);
-}
-.social ul li {
-    display: inline;
+    display: flex !important;
+    flex-direction: row !important;
 }
 .btn-login {
     background-color:  rgb(101, 77, 141) ;
@@ -103,7 +102,5 @@ form {
 }
 .navbottom img {
     height: 20px;
-    padding: 0 5px;
-
+    padding: 0;
 }
- 
