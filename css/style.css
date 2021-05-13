@@ -1,5 +1,5 @@
 body {
-
+    color: rgb(74, 44, 119);
     background-image: url('/images/boiling.jpg');
     background-position: center;
     background-size: cover;
@@ -54,7 +54,7 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 .registerbtn {
-    background-color: #0275d8;
+    background-color: #65078dd5;
     border-radius: 4px;
     color: white;
     padding: 8px 20px;
@@ -73,3 +73,23 @@ input[type=text]:focus, input[type=password]:focus {
 .navbottom {
     background-color: rgba(41, 30, 58, 0.9);
 }
+.social ul li {
+    display: inline;
+}
+.btn-login {
+    background-color:  rgb(101, 77, 141) ;
+}
+.btn-register {
+  background-color: #ADBB3C;
+}
+/*
+.facebook {
+    background-image: url(/images/facebook.svg);
+}
+.instagram {
+    background-image: url(/images/instagram.svg);
+}
+.twitter {
+    background-image: url(/images/twitter.svg);
+}
+*/
