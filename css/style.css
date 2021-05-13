@@ -6,6 +6,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgb(169, 202, 169)
+}.jumbotron {
+    color: rgb(219, 208, 233);
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 form {
     display: flex;
@@ -20,7 +25,14 @@ form {
     display: flex;
     flex-direction: column;
 }
-
+.img-thumbnail:hover {
+    transition: .25s ease;
+    transform:scale(0.98)
+}
+.card-body .card-text {
+    font-size: 16px;
+    font-weight: 600;
+}
 .btn.sale {
     border-radius: 2;
     width: fit-content;
@@ -34,12 +46,16 @@ form {
     text-align: center;
     white-space: nowrap;
 }
+.btn.sale:hover {
+    transition: .25s ease;
+    transform: scale(1.05);
+}
 .img-thumbnail {
     border: none;
 }
 .card-title {
-    font-size: 14px;
-    font-weight: 800
+    font-size: 16px;
+    font-weight: 700
 }
 .card-text {
     font-size: 14px;
@@ -49,7 +65,6 @@ form {
 .row {
     display: flex;
 }
-
 .registerbtn {
     background-color: #65078dd5;
     border-radius: 4px;
@@ -68,6 +83,9 @@ form {
     background-color: rgb(100, 77, 141, 0.6);
 }
 .navbottom {
+    position: sticky;
+    width: 100%;
+    bottom: 0px; 
     background-color: rgba(41, 30, 58, 0.9);
 }
 .social ul li {
@@ -79,14 +97,10 @@ form {
 .btn-register {
   background-color: #ADBB3C;
 }
-/*
-.facebook {
-    background-image: url(/images/facebook.svg);
-}
-.instagram {
-    background-image: url(/images/instagram.svg);
-}
-.twitter {
-    background-image: url(/images/twitter.svg);
-}
-*/
+@media screen and (max-width: 600px) {
+    .navbottom a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+ 
