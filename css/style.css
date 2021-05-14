@@ -1,6 +1,6 @@
 body {
     color: rgb(74, 44, 119);
-    background-image: url('/images/boiling.jpg');
+    background-image: url('../images/boiling.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
